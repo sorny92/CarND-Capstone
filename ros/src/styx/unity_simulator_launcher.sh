@@ -8,7 +8,8 @@ USER_PROFILE="$THIS_DIR/profile.tmp"
 if [ ! -f "$USER_PROFILE" ];
   then
     echo "What is the full path to your Unity simulator?"
-    read unity_path
+    #read unity_path
+    unity_path = "/home/esteve/Downloads/linux_sys_int"
 
     # write to the file
     echo "$unity_path" > $USER_PROFILE
